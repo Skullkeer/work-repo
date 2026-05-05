@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,13 +7,17 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Recomendations</h1>
-    <p>Interstellar</p>
-    <p>Harry Potter and the Philosphers stone</p>
-    <p>Jurrasic Park</p>
-    <p>Stars Wars: Return of the Jedi</p>
-    <p>Avengers: Endgame</p>
-
+    <h1>Movie Recomendations</h1>
+    <p>Interstellar (2014)</p>
+    <p>Harry Potter and the Philosphers Stone (2001)</p>
+    <p>Conclave (2024)</p>
+    <p>Stars Wars: Return of the Jedi (1983)</p>
+    <p>Seven Samurai</p>
+    <h2>Click here for a random movie choice!</h2>
+    <button onclick="randomMovie()">Click me</button>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <br>
+    <br>
     <a href="team">Team Members</a>
 </body>
 
